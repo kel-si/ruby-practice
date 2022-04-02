@@ -18,7 +18,7 @@ change.each {|i| puts "I got #{i}"}
 # can build arrays first
 elements = []
 
-# range operator to count
+# range operator to count: start at 0 and end at 5
 (0..5).each do |i|
   puts "adding #{i} to the list."
   #pushes the i variable to the end of the array
